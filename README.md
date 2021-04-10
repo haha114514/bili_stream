@@ -26,7 +26,7 @@ A docker image based on nginx-stream for forwarding streaming to bilibili-live
 
 wget -N "https://github.000060000.xyz/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
 
-一般来说，安装xanmod版内核(选择6)，然后使用bbr+fq_pie加速（选择6）即可。
+一般来说，安装xanmod版内核(选择6)，然后使用bbr+fq_pie加速（选择12）即可。
 
 ## 1.	安装Docker
 
