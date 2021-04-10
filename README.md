@@ -3,7 +3,7 @@ A docker image based on nginx-stream for forwarding streaming to bilibili-live
 
 前言
 
-本次教程采用腾讯云上海免费升级的2C4G6M服务器，基于Nginx-Stream插件进行直播流量的转发，便于海外用户直播推流B站。
+本次教程采用腾讯云上海免费升级的2C4G6M服务器举例，搭建基于Nginx-Stream插件进行直播流量的转发，便于海外用户直播推流B站。
 
 参考配置
 
