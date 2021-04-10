@@ -8,7 +8,7 @@ RUN unzip dev.zip
 
 WORKDIR nginx-1.15.1
 
-RUN ./configure --with-http_ssl_module --add-module=../nginx-rtmp-module-dev
+RUN ./configure --with-stream --with-http_ssl_module --add-module=../nginx-rtmp-module-dev
 RUN make
 RUN make install
 
