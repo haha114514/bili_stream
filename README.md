@@ -52,12 +52,12 @@ docker run --restart=always --name live -d -p 你的端口:1935 haha114514/bili_
 去网站上开播（通过malus或者穿梭等免费的chrome插件即可做到）
 
 
-打开obs，将 设置-推流-服务器中的连接改为rtmp://你的服务器ip/live-bvc（例如rtmp://11.4.5.14/live-bvc），串流密码保持b站提供的直播码不变
+打开obs，将 设置-推流-服务器中的连接改为rtmp://你的服务器ip/live-bvc/（例如rtmp://11.4.5.14/live-bvc/），串流密码保持b站提供的直播码不变
 
 然后开播测试，如果正常推流则运行正常。
 ![image](https://user-images.githubusercontent.com/47912037/114272423-7889dd80-9a59-11eb-8107-fbaeb57131d7.png)
 
-Ps:如果使用的是nat服务器，请将格式改为rtmp://你的服务器ip:你的端口/live-bvc
+Ps:如果使用的是nat服务器，请将格式改为rtmp://你的服务器ip:你的端口/live-bvc/
 
 请尽情使用吧。
 
