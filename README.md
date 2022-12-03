@@ -1,6 +1,8 @@
 # bili_stream
 A docker image based on nginx-stream for forwarding streaming to bilibili-live 
 
+## Update 03/12/2022 目前已失效，除非手动在hosts中把live-push.bilivideo.com指向转发ip，不然叔叔的收流服务器检测不到正确的header会在1分半-2分左右强制断开推流。
+
 前言
 
 本次教程采用腾讯云上海免费升级的2C4G6M服务器举例，搭建基于Nginx-Stream插件进行直播流量的转发，便于海外用户直播推流B站。
